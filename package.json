@@ -1,0 +1,47 @@
+{
+  "name": "load-img",
+  "version": "1.0.0",
+  "description": "loads a Image for the browser",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "baboon-image-uri": "^1.0.1",
+    "browserify": "^13.0.0",
+    "faucet": "0.0.1",
+    "smokestack": "^3.4.1",
+    "tap-closer": "^1.0.0",
+    "tape": "^4.5.1"
+  },
+  "scripts": {
+    "test": "browserify test/index.js | tap-closer | smokestack | faucet"
+  },
+  "keywords": [
+    "img",
+    "image",
+    "load",
+    "image",
+    "url",
+    "browser",
+    "tag",
+    "images",
+    "htmlimagelement"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/load-img.git"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "homepage": "https://github.com/mattdesl/load-img",
+  "bugs": {
+    "url": "https://github.com/mattdesl/load-img/issues"
+  }
+}
